@@ -1,0 +1,88 @@
+body {
+    /*background-color: #435e6d;*/
+    background-image: url('./imagens/folha.png');
+    background-repeat: repeat;
+    background-size: 30px; 
+    min-width: 50%;
+    display: flexbox;
+}
+
+@font-face {
+    font-family: 'BillionDreams';
+    src: url('./fontes/fontebillion.ttf') format('truetype');
+}
+
+header {
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-weight: bold;
+}
+
+.p_header {
+    position: absolute;
+    font-size: 35px;
+    font: bold;
+    margin-left: 50px;
+}
+
+button {
+    background-color: black;
+}
+
+.barradenav1 {
+    border: white, 4px, bold;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    font: bold;
+    color: rgb(255, 255, 255);
+    right: 55px;
+    top: 55px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.barradenav2 {
+    border: white, 4px, bold;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 20px;
+    text-decoration: none;
+    font: bold;
+    color: rgb(255, 255, 255);
+    right: 165px;
+    top: 55px;
+    transition: 0.3s ease-in-out;  
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'BillionDreams';
+    letter-spacing: 15px;
+    font-weight: lighter;
+    font-size: 60px;
+    margin-left: 65px;
+    padding-top: 50px;
+}
+
+main {
+    background-color: peru;
+    color: #000;
+    border-radius: 10px;
+    font-size: 20px; 
+    margin: 50px;
+    padding: 30px;
+    border: solid white 5px;
+}
+
+body aside .card {
+    display: inline-block;
+    text-align: center;
+}
+
+body footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: auto;
+}
