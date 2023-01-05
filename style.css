@@ -3,7 +3,7 @@ body {
     background-image: url('./folha.png');
     background-repeat: repeat;
     background-size: 30px; 
-    min-width: 50%;
+    min-width: 714px;
     display: flexbox;
 }
 
