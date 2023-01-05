@@ -1,6 +1,6 @@
 body {
     /*background-color: #435e6d;*/
-    background-image: url('./imagens/folha.png');
+    background-image: url('./folha.png');
     background-repeat: repeat;
     background-size: 30px; 
     min-width: 50%;
@@ -9,7 +9,7 @@ body {
 
 @font-face {
     font-family: 'BillionDreams';
-    src: url('./fontes/fontebillion.ttf') format('truetype');
+    src: url('./fontebillion.ttf') format('truetype');
 }
 
 header {
